@@ -33,7 +33,7 @@ def translate_word(word_to_translate, source_lang, target_lang):
     )
 
     translated_text = translated_text_element.text
-    print(f"Translation of '{word_to_translate}': {translated_text}")
+    print(f"Translation [{source_lang}->{target_lang}] of '{word_to_translate}': {translated_text}")
 
     driver.quit()
     return translated_text
