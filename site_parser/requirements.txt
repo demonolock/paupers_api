@@ -1,0 +1,4 @@
+selenium
+pytest
+beautifulsoup4
+lxml
