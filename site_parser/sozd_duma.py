@@ -32,7 +32,6 @@ class ParseSozdDuma:
         """Create CSV file with headers if it doesn't exist"""
         with open(self.current_csv_file, 'w', newline='', encoding='utf-8') as f:
             writer = csv.writer(f)
-            writer.writerow(self.header)
 
     def clean_text(self, text):
         """Remove excess whitespace but preserve single spaces"""
